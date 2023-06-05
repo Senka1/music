@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,400;1,700&display=swap');
+.branch {
+    box-shadow: gray 0 0 5px 0.1px;
+    margin: 25px auto;
+    width: 100%;}
+.abouttext {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 40px;}
+.first-wrapper, .second-wrapper {
+    width: 50%;
+    margin: 40px auto;
+    border-top: 1.5px solid rgb(226, 226, 226);
+    padding-top: 20px;}
+.first-wrapper {
+    float: left;
+    padding-right: 2%;
+    border-right: 1.5px solid rgb(226, 226, 226);}
+.second-wrapper {
+    float: right;
+    padding-left: 2%;}
+.second p, .first p {font-size: 17px;}
+.second {text-align: right;}
+.first {text-align: left;}
+.second img, .first img {
+    max-width: 200px;
+    max-height: 250px;
+    overflow: hidden;}
+.second img {
+    float: right;
+    margin-left: 20px;}
+.first img {
+    float: left;
+    margin-right: 20px;}
+h2 {font-weight: 600;}
